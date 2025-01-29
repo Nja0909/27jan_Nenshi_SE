@@ -1,0 +1,15 @@
+https://github.com/Nja0909/27jan_Nenshi_SE.git
+
+
+echo "# 27jan_Nenshi_SE" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Nja0909/27jan_Nenshi_SE.git
+git push -u origin main
+
+
+git remote add origin https://github.com/Nja0909/27jan_Nenshi_SE.git
+git branch -M main
+git push -u origin main
