@@ -1,0 +1,29 @@
+task-1
+
+SELECT 
+    country.country_name AS Country,
+    city.city_name AS City,
+    customer.customer_name AS Customer
+FROM 
+    country
+LEFT JOIN 
+    city ON country.country_id = city.country_id
+LEFT JOIN 
+    customer ON city.city_id = customer.city_id
+ORDER BY 
+    country.country_name, city.city_name, customer.customer_name;
+
+task-2
+SELECT 
+    country.country_name AS Country,
+    city.city_name AS City,
+    customer.customer_name AS Customer
+FROM 
+    country
+INNER JOIN 
+    city ON country.country_id = city.country_id
+LEFT JOIN 
+    customer ON city.city_id = customer.city_id
+ORDER BY 
+    country.country_name, city.city_name, customer.customer_name;
+
